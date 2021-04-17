@@ -1,60 +1,87 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <meta charset="UTF-8">
- 
-  <title>Brandy </title>
+    <meta charset="UTF-8">
+    <title>Lattitude</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <body style="background-color:#F3E5F5;">
-  </body>
-  <h1 style="color:#00ACC1";></h1>
-  <h1>Brandy Knust</h1>
-  
-  <img src="voting day (2).jpg" width="200" height="200" alt="Brandy Knust">
+    
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand btn" href="index.html">Latitude</a>
+        
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
 
-  <p>I have been a Science Teacher for the last 21 years. I have learned about myself, others,<br/>
-  and the world in the process. I have found that I love data and finding ways to help others better<br/>
-  understand data in the process. I hope to be able to use my many years of leadership in a new career<br/>
-  of data analysis.</p>
-  <p>Through the Data Visualization Boot Camp, I have learned skills that will allow me to apply my talents<br/>
-  of analyzing data into real world programs used in many fields. I now am confident that I will be able to<br/>
-  walk into a new career and be successful in helping any employer better understand what their data is<br/>
-  is telling them to help them make the best decisions for their business.</p>
-
-  <ul>
-    <li><strong>Email:</strong> <a href="#">brandy_1175@hotmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">Brandy-knust</a></li>
-    <li><strong>Twitter:</strong> <a href="#">coming soon</a></li>
-  </ul>
-
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>Le Morte d'Arthur</td>
-      <td>The Italian Job</td>
-      <td>Elder Scrolls: Skyrim</td>
-    </tr>
-    <tr>
-      <td>The Lost Symbol</td>
-      <td>Ocean's Eleven</td>
-      <td>Ghost Recon</td>
-    </tr>
-    <tr>
-      <td>A Discovery of Witches</td>
-      <td>Game of Thrones (not really a movie)</td>
-      <td>Far Cry</td>
-    </tr>
-  </table>
-
-  <!-- Bonus link to last class page -->
-  <a href="file:///C:/Users/brand/Repos/extra%20%20work/my-first-webpage.html">My First HTML Bonus</a>
-
+        <div class="collapse navbar-collapse"
+        id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <!-- <div class="topnav-right"> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
+                      <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-4">
+                <div class="title1">
+                    <h1>Summary: X vs. Latitude</h1>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-2">
+                <div class="title1">
+                    <h1>Visualizations</h1>
+                </div>
+            </div>        
+        <div class="row">
+            <div class="col-md-8 col-sm-4">
+                <img src="Resources/assets/images/Fig1.png" align="left" width =45%>
+                <p> In this activity, we generated over 500 random Latitude and Longitude points and then found cities that were at those points. We then analyzed weather data found at those points for Temperature, Humidity, Cloudiness, and Wind Speed. We were able to see if the Latitude, or distance from the Equator, affected each of these conditions. We plotted each of the points against the Latitude to see if there was a correlation. </br>        
+                </br>
+                In addition, we ran statistical analyses to see the relationships between each of the different data sets. On this site, you will find just how correlated each variable is to the Latitude. You will see that, other than Temperature, many of the variables have very little to do with the actual Latitude, but more with other factors.
+                </p>
+            </div>
+            <div class="col-md-2 col-sm-2 img1">
+                <a class="image-link" href="Temperature.html">
+                    <img width="160" img src="Resources/assets/images/Fig1.png">
+                </a>                      
+                <a class="image-link" href="Humidity.html">
+                    <img width="160" img src="Resources/assets/images/Fig2.png">  
+                </a>                      
+            </div>                                                 
+            <div class="col-md-2 col-sm-2 img1">
+                <a class="image-link" href="Cloudiness.html">
+                    <img width="160" img src="Resources/assets/images/Fig3.png">
+                </a>
+                <a class="image-link" href="Wind_Speed.html">
+                    <img width="160" img src="Resources/assets/images/Fig4.png">
+                </a>
+            </div>                
+            </div>
+           
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
-</html>

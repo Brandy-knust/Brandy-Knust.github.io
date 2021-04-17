@@ -1,1 +1,2 @@
-# Brandy-Knust.github.io
+# Web-Design-Challenge
+HTML/Web Design Homework
